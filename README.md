@@ -100,6 +100,14 @@ cd PRIME
 pip install -r requirements.txt
 ```
 
+### Download the Datasets
+```bash
+# download the PRIME benchmark
+hf download wonderful9462/PRIME --repo-type=dataset --local-dir=data/ --include="PRIME.jsonl"
+# download the PRIME-RL-Data
+hf download wonderful9462/PRIME-RLVR-Data --repo-type=dataset --local-dir=data/ --include="PRIME-RLVR-Data.jsonl"
+```
+
 ### Run the Evaluation
 
 ```bash
