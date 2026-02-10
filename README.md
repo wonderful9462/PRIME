@@ -42,7 +42,7 @@ We provide the **PRIME Benchmark**, the **PRIME-RL** series of models, and the c
 Current outcome-centric verification paradigms primarily focus on the consistency between the final result and the ground truth. This often leads to "false positives" — correct answers produced through erroneous logic.
 
 <p align="center">
-    <img src="assets/lucky_guess.png" width="60%"> <br>
+    <img src="assets/lucky_guess.png" width="30%"> <br>
     <i>Example of Process-Outcome Misalignment: The final answer is correct, but the middle derivation contains fundamental errors.</i>
 </p>
 
@@ -61,14 +61,14 @@ We propose a training framework that aligns the reasoning process with the final
 Benchmark evaluation shows that advanced verifiers frequently fail to detect derivation flaws. 
 
 <p align="center">
-    <img src="assets/bench_results.png" width="70%"> <br>
+    <img src="assets/bench_results.png" width="60%"> <br>
     <i> Benchmark evaluation results of general LLM and specialized verifiers. </i>
 </p>
 
 We also analyze the cost and benchmark performance of various open-source verifier models to inform verifier selection.
 
 <p align="center">
-    <img src="assets/performance_efficiency.png" width="70%"> <br>
+    <img src="assets/performance_efficiency.png" width="50%"> <br>
     <i> Cost and benchmark performance of various open-source models. </i>
 </p>
 
@@ -77,8 +77,8 @@ We also analyze the cost and benchmark performance of various open-source verifi
 Beyond benchmark metrics, we trained policy models with different verifiers and observed that post-RLVR performance is highly correlated with benchmark scores ($r^2 \geq 0.92$), which validates the effectiveness of our benchmark evaluation.
 
 <p align="center">
-    <img src="assets/downstream.png" width="70%"> <br>
-    <img src="assets/correlation.png" width="70%"> <br>
+    <img src="assets/downstream.png" width="60%"> <br>
+    <img src="assets/correlation.png" width="60%"> <br>
     <i> Downstream performance and correlation analysis of various verifiers. </i>
 </p>
 
